@@ -1,131 +1,216 @@
+
 números :
 
-int : Number.parseInt
-float : Number.parseFloat
-definido automaticamente : Number
+  int : Number.parseInt
+  float : Number.parseFloat
+  definido automaticamente : Number
 
 
 string :
 
-nome.toString
-String
+  nome.toString
+  String
 
 
 como usar templateString :
 
-usando `` para englobar o código, coloque a váriavel entre chaves, depois de um $.
-ex.: 
+  usando `` para englobar o código, coloque a váriavel entre chaves, depois de um $.
+  ex.: 
 
-var nome = 'geovani'
+    var nome = 'geovani'
 
-`Olá, sou o ${nome}`
+    `Olá, sou o ${nome}`
 
 
 formatação geral : 
 
-nome1.replace('', '') // troca oq está dentro das primeiras aspas pelo que está dentro das segundas.
+  nome1.replace('', '') // troca oq está dentro das primeiras aspas pelo que está dentro das segundas.
 
 
 formatação de strings :
 
-s.lenght // quantos caracteres a string tem
-s.toUpperCase() // deixa todas as letras maiúsculas
-s.toLowercase() // deixa todas as letras minúsculas 
+  s.lenght // quantos caracteres a string tem
+  s.toUpperCase() // deixa todas as letras maiúsculas
+  s.toLowercase() // deixa todas as letras minúsculas 
 
 
 formatação de números :
 
-n1.toFixed(n2) // altera o número de casas
-n1.toLocaleString('pt-BR', {style: 'currency', currency : 'BRL'}) // altera o formato monetário de acordo com o país escolhido
+  n1.toFixed(n2) // altera o número de casas
+  n1.toLocaleString('pt-BR', {style: 'currency', currency : 'BRL'}) // altera o formato monetário de acordo com o país escolhido
   
 alerts : 
 
-window.alert ("minha primeira mensagem"); // janela com um alerta
-window.confirm ("está gostando de javascript ?"); // janela com um botão de ok e cancelar
-window.prompt ("Qual é o seu nome ?"); // janela com uma pergunta a ser respondida
+  window.alert ("minha primeira mensagem"); // janela com um alerta
+  window.confirm ("está gostando de javascript ?"); // janela com um botão de ok e cancelar
+  window.prompt ("Qual é o seu nome ?"); // janela com uma pergunta a ser respondida
 
 
 
 escrever na tela :
 
-document.write = escreve um texto na tela
-document.writeln = escreve um texto e pula pra linha seguinte
-(famoso print)
+  document.write = escreve um texto na tela
+  document.writeln = escreve um texto e pula pra linha seguinte
+  (famoso print)
 
 
 
 
 operadores : 
 
-ordem de precedência :
-()
-**
-* / % 
-+ -
+  ordem de precedência :
+    
+    ()
+    **
+    * / % 
+    + -
 
 aritméticos :
 
-5 + 2 = 7
-5 - 2 = 3
-5 * 2 = 10
-5 / 2 = 2.5
-5 % 2 = 1 (resto da divisão)
-5 ** 2 = 25 (potencia) 
+  5 + 2 = 7
+  5 - 2 = 3
+  5 * 2 = 10
+  5 / 2 = 2.5
+  5 % 2 = 1 (resto da divisão)
+  5 ** 2 = 25 (potencia) 
 
 relacionais :
 
-5 > 2 -> true
-7 < 5 -> flase
-8 >= 8 -> true
-9 <= 7 -> false
-5 == 5 -> true
-4 != 4 -> false
+  5 > 2 -> true
+  7 < 5 -> flase
+  8 >= 8 -> true
+  9 <= 7 -> false
+  5 == 5 -> true
+  4 != 4 -> false
  
-esses valores sempre serão boolean (true or false)
+  esses valores sempre serão boolean (true or false)
 
-5 == '5' -> true. == é responsável por verificar se o valor é o msm.
-5 === '5' -> flase. === é responsável por verificar se são identicos, tanto em valor quanto em tipos.
+  5 == '5' -> true. == é responsável por verificar se o valor é o msm.
+  5 === '5' -> flase. === é responsável por verificar se são identicos, tanto em valor quanto em tipos.
 
-atribuição 
+atribuição : 
 
 lógicos : 
 
-*em ordem*
+  *em ordem*
 
-! -> negação -> operador unário (ou true ou false)
+  ! -> negação -> operador unário (ou true ou false)
 
-&& -> conjunção (e) -> binário :
-true e true -> true
-true e false -> false
-false e true -> false
-false e false -> false
+  && -> conjunção (e) -> binário :
+    true e true -> true
+    true e false -> false
+    false e true -> false
+    false e false -> false
 
-|| -> disjunção (ou) - > binário :
-true e true -> true
-true e false -> true
-false e true -> true
-false e false -> false
+  || -> disjunção (ou) - > binário :
+    true e true -> true
+    true e false -> true
+    false e true -> true
+    false e false -> false
 
 ternário : 
 
-? e :
+  ? e :
 
-|teste| ? |true| : |false|
+  |teste| ? |true| : |false|
 
-ex.:
-media > 7 ? 'aprovado' : 'reprovado'
+  ex.:
+    media > 7 ? 'aprovado' : 'reprovado'
 
 
 métodos de acesso : 
 
-marcas == tag --> getElementsByTagName()
-ID --> getElementById()
-nome -- > getElementsByName()
-classe == class --> getElementsByClassName
-seletor --> querySelector() / querySelectorAll()
+  marcas == tag --> getElementsByTagName()
+  ID --> getElementById()
+  nome -- > getElementsByName()
+  classe == class --> getElementsByClassName
+  seletor --> querySelector() / querySelectorAll()
 
 
 
-document.write(p.innerText)[0] -> escreve o texto escolhido, mas sem a formatação.
-document.write(p.innerHTML)[0] -> escreve o texto escolhido
+  document.write(p.innerText)[0] -> escreve o texto escolhido, mas sem a formatação.
+  document.write(p.innerHTML)[0] -> escreve o texto escolhido
  
+
+
+DOM : Document Object Model.
+
+DOM events : 
+
+  mouseenter : quando o mouse entra no espaço da div.
+
+  mousemove : quando o mouse se move dentro do espaço da div.
+
+  mousedown : quando o mouse pressiona o espaço da div.
+ 
+  mouseup : quando o mouse que antes estava pressionado é solto.
+
+  click : quando o mouse clica no espaço da div.
+
+  mouseout : quando o mouse sai do espaço da div.
+
+
+
+funções : 
+
+  blocos : delimitado entre os sinais de chaves '{}', tem que ser nomeado com 'function' (function ação(parametro){})
+
+
+
+ex. de event dentro do html :
+
+  |   <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+          Interaja...
+      </div>
+  <script>
+      function clicar() {
+          var a = document.getElementById('area')
+          a.innerText = 'você interagiu'
+          a.style.background = 'red'
+      }
+
+      function entrar() {
+          var b = document.getElementById('area')
+          b.innerText = 'o mouse está na area'
+      }
+
+      function sair() {
+          var c = document.getElementById('area')
+          c.innerText = 'o mouse saiu da area'
+          c.style.background = 'green'
+      }
+
+  </script> |
+
+
+
+ex. de function dentro do js :
+
+  | <div id="area">
+          Interaja...
+      </div>
+  <script>
+
+      var a = document.getElementById('area')
+    
+      a.addEventListener('click', clicar)
+      a.addEventListener('mouseenter', entrar)
+      a.addEventListener('mouseout', sair)
+
+      function clicar() {
+        a.innerText = 'você interagiu'
+        a.style.background = 'red'
+      }
+
+      function entrar() {
+          a.innerText = 'o mouse está na area'
+      }
+  
+      function sair() {
+          a.innerText = 'o mouse saiu da area'
+          a.style.background = 'green'
+      } |
+
+
+
+5

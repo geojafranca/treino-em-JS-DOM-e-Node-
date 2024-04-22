@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex006</title>
+
+    <style>
+        #area {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: green;
+            color: white;
+            width: 200px; height: 200px;
+            line-height: 200px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja...
+    </div>
+<script>
+    function clicar() {
+        var a = document.getElementById('area')
+        a.innerText = 'você interagiu'
+        a.style.background = 'red'
+    }
+
+    function entrar() {
+        var b = document.getElementById('area')
+        b.innerText = 'o mouse está na area'
+    }
+
+    function sair() {
+        var c = document.getElementById('area')
+        c.innerText = 'o mouse saiu da area'
+        c.style.background = 'green'
+    }
+
+</script>
+</body>
+</html>
