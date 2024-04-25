@@ -23,18 +23,21 @@
 <script>
 
     function somar() {
-        var tn1 = querySelector('input#txt1')
-        var tn2 = querySelector('input#txt2')
-        
+        var tn1 = document.querySelector('#txt1')
+        var tn2 = document.querySelector('#txt2')
         var n1 = Number(tn1.value)
         var n2 = Number(tn2.value)
-        var s = n1 + n2 
+        var s = n1+n2
 
-        var res = querySelector('div#res')
-        res.innerHTML = `O seu resultado é ${s}`
+
+        var Resu = document.querySelector('#res')
+        Resu.innerHTML = `A soma desses valores é ${s} `
     }
+    
 
 /*n sei pq deu errado */
+
+/* att : agr está dando certo, o erro era o 'input' antes do '#txt1' */
 
 </script>
 </body>

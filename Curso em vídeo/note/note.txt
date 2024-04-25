@@ -213,4 +213,50 @@ ex. de function dentro do js :
 
 
 
-5
+condições :
+  
+  sequências :
+    os códigos são executados em sequência. mas caso queira executar uma linha de código msm que ela n esteja em sequência, usaremos as *condições*.
+
+  ex. de condições : if, else e elseif. dividas em simples e aninhada.
+
+ex.:
+ function checar(){
+        var txtv = document.querySelector('#txtvel')
+        var res = document.querySelector('#res')
+        var vel = Number (txtv.value)
+        res.innerHTML = `Sua velocidade atual é de ${vel}km/h`
+
+        if (vel > 60) {
+            velm.innerHTML = `Você ultrapassou o limite de velocidade. MULTADO`
+        }
+    }
+  
+como pegar uma data/hora atual do usuário : 
+
+  var agora = new Date ()
+  var hora = agora.getHours()
+  
+
+
+
+condições multiplas :
+
+  switch (expressão) {
+    case valor 1 :
+      console.log
+      break  
+
+    case valor 2:
+      console.log 
+      break
+                
+    case valor 3:
+      console.log
+      break   
+    
+    default:
+    break
+  }
+
+  *O BREAK É MUITO IMPORTANTE*
