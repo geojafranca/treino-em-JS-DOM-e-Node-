@@ -260,3 +260,7 @@ condições multiplas :
   }
 
   *O BREAK É MUITO IMPORTANTE*
+
+
+
+  ex. de alteração do css através do js: document.body.style.background = '#23232e'
