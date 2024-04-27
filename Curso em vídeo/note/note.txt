@@ -264,3 +264,20 @@ condições multiplas :
 
 
   ex. de alteração do css através do js: document.body.style.background = '#23232e'
+
+
+
+  como validar um radio button :
+     var fsex = document.getElementsByName('radsex')
+     var genero = ''
+     if (fsex[0].checked) {
+      genero = 'homem'
+     } else {
+      genero = 'mulher'
+     }
+
+
+  como criar um elemento com um ID em js : 
+    var img = document.createElement('img')
+    img.setAttribute('id', 'foto') 
+    resp.appendChild(img)  
