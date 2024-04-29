@@ -281,3 +281,86 @@ condições multiplas :
     var img = document.createElement('img')
     img.setAttribute('id', 'foto') 
     resp.appendChild(img)  
+
+
+
+
+    calculadora em node usando while : 
+
+    var c = 1
+var n = 5
+while (c <= 5) {
+    var s = n*c
+    console.log(`${n} X ${c} = ${s} `)
+    c++
+       
+}
+
+calculadora em node usando for :
+  for (let c = 0; c <= 10; c++) {
+    var n1 = 10
+    var s = n1*c
+    console.log(`${n1} X ${c} = ${s}`)
+}
+
+
+array (vetor) : vaga a = [ , , ]
+
+uma array é uma váriavel composta por elementos, cada elemento é composta por um valor e chave de identificação.
+
+
+ex. de criação de arrays e adição de elementos : 
+  let num = [ 5 , 8 , 4 ] 
+  console.log(num[0])
+  console.log(num[1])
+  console.log(num[2])
+  num[3] = 6 *ou num.push(6)*
+
+  console.log(num)
+
+
+  para saber o comprimento e um array : num.length+
+  para ordenalos do menor ao maior : num.sort()
+
+
+  como listar todos os elementos de um vetor : 
+
+
+
+    let num = [5, 4, 3, 2, 7]   
+    for (let pos = 0; pos < num.length ; pos++) {
+    console.log(num[pos])
+}
+
+como achar a chave de um valor específico dentro de um vetor : 
+let num = [5, 8, 2, 9, 3]
+let pos = num.indexOf(8)
+console.log(`esse valor existe, a chave dele é : ${pos}`)
+
+
+
+
+
+
+
+
+
+livros :
+
+
+Fica aqui algumas dicas de livros:
+- JavaScript - guia definitivo
+Autor - David Flanagan
+- JavaScript - guia do programador
+Mauricio Samy Silva
+
+https://github.com/cezaraugusto/You-Dont-Know-JS
+https://github.com/felipe-augusto/clean-code-javascript
+
+To no cel na deu pra postar o link dos dois primeiros. Abrs
+
+
+
+
+
+
