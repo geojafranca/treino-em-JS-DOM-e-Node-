@@ -338,8 +338,14 @@ let pos = num.indexOf(8)
 console.log(`esse valor existe, a chave dele é : ${pos}`)
 
 
+funções : são ações executadas assim que aão chamadas ou em decorrência de algum evento.
+uma função pode receber parametros e retornar um resultado.
 
 
+
+objetos : 
+let amigo = {nome: 'josé', sexo:'m',peso:85.4, engordar(p){}}
+console.log(amigo.nome) <- como acessar algo no objeto
 
 
 
@@ -362,5 +368,11 @@ To no cel na deu pra postar o link dos dois primeiros. Abrs
 
 
 
+oq estudar daqui pra frente : 
 
+JSON
+funtions
+RegEx
+AJAX
+nodejs
 
